@@ -9,19 +9,6 @@ This is a simple counter web application that allows users to increment, decreme
 - **Reset Button**: Resets the counter value to 0.
 - **Responsive Design**: The app is mobile-friendly and adjusts its layout for smaller screens.
 
-## Project Structure
-
-    Directory: D:\FULL_STACK LEARNING\my-web-app
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a---          28-04-2025 11:13 PM            662 index.html
--a---          28-04-2025 11:13 PM            700 index.js
--a---          28-04-2025 11:13 PM           1291 README.md
--a---          28-04-2025 11:13 PM            511 styles.css
-
-
-
 ## How to Run
 
 1. Clone or download the repository to your local machine.
