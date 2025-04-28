@@ -1,0 +1,83 @@
+body{  
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(93, 93, 141) 35%, rgba(0, 212, 255, 1) 100%);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#counterlabel{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 10em;
+    margin-top: 20px;
+    font-family: "Quarto", sans-serif;
+}
+.buttoncontainer{
+    justify-content: center;
+    text-align: center;
+}
+.buttons{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-style: solid;
+    /* border-left: 20px; */
+    font-family: "Quarto", sans-serif;
+    font-size: 1.5em;
+    /* transition: 2.5s; */
+}
+.buttons:hover{
+    background-color: #3e8e41; /* Darker green */
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 18em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(93, 93, 141) 50%, rgba(0, 212, 255, 1) 100%);
+        padding: 10px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #counterlabel {
+        font-size: 5em;
+        margin-top: 10px;
+    }
+    .buttoncontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons {
+        padding: 15px 30px;
+        font-size: 1.2em;
+        margin: 6px 0;
+    }
+    .footer {
+        font-size: 16px;
+        margin-top: 10em;
+    }
+}
